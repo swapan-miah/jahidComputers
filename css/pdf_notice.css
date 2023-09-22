@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8d767637;
+}
+.bg-custom {
+  background-color: #000080;
+  border-radius: 8px 8px 0px 0px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 1px solid red; */
+  font-family: Arial, sans-serif;
+  font-size: 1rem !important;
+}
+
+/* Style the table header */
+
+/* Style the table rows */
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the table cells */
+td {
+  padding: 12px;
+  border: 1px solid #070707;
+}
+
+/* Hover effect on rows */
+tr:hover {
+  background-color: #026d0f;
+  color: yellow;
+}
+/* X-Small devices (portrait phones, less than 576px)*/
+td:nth-child(1) {
+  width: 5%;
+}
+td:nth-child(2) {
+  width: 85%;
+}
+td:nth-child(3) {
+  width: 10%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  table {
+    font-size: 1.3rem !important;
+  }
+}
