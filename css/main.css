@@ -42,10 +42,79 @@ body {
 .heading_title {
   letter-spacing: 3px;
 }
-/* main title div  */
-.header_title{}
-/* xxl size div sort  */
-.heading_text{}
+.header_title_section{
+  letter-spacing: 3px;
+}
+.jahid_Computer_text{
+  font-size: 57px !important;
+  margin-bottom: 2px;
+}
+.established , .pakulla{
+  
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 350px) {  
+  .jahid_Computer_text{
+    font-size: 20px !important;
+    margin-bottom: 2px;
+    margin-top: 20px;
+  }
+  .established , .pakulla{
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 576px) {  
+  .jahid_Computer_text{
+    font-size: 25px !important;
+    margin-bottom: 2px;
+  }
+  .established , .pakulla{
+    margin-bottom: 6px;
+  }
+}
+@media (min-width: 576px) {  
+  .jahid_Computer_text{
+    font-size: 30px !important;
+    margin-bottom: 2px;
+  }
+  .established , .pakulla{
+    margin-bottom: 6px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .jahid_Computer_text{
+    /* font-size: 30px !important; */
+    margin-bottom: 2px;
+  }
+  .established , .pakulla{
+    margin-bottom: 6px;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .jahid_Computer_text{
+    font-size: 40px !important;
+    margin-bottom: 2px;
+  }
+  .established , .pakulla{
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
+
 
 
 .services_item_title {
@@ -215,9 +284,7 @@ body {
   }
 }
 @media screen and (min-width: 991px) {
- .header_title_section{
-  width: 70%;
- }
+
   .mainheader-content h1 {
     font-size: 23px; /* Responsive  Website Header  h1 Text Size Change   */
     letter-spacing: 1.3px;
@@ -239,9 +306,7 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .header_title_section{
-    width: 60%;
-   }
+  
   .mainheader-content h1 {
     font-size: 28px; /* Responsive  Website Header  h1 Text Size Change   */
     letter-spacing: 1.3px;
@@ -578,11 +643,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1400px){
-  .header_title_section{
-    width: 60%;
-   }
-}
+
 
 /* ---------------- img_galary page ------------ */
 .imageGalleryItems {
