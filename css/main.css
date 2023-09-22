@@ -42,6 +42,12 @@ body {
 .heading_title {
   letter-spacing: 3px;
 }
+/* main title div  */
+.header_title{}
+/* xxl size div sort  */
+.heading_text{}
+
+
 .services_item_title {
   width: 300px;
 }
@@ -209,6 +215,9 @@ body {
   }
 }
 @media screen and (min-width: 991px) {
+ .header_title_section{
+  width: 70%;
+ }
   .mainheader-content h1 {
     font-size: 23px; /* Responsive  Website Header  h1 Text Size Change   */
     letter-spacing: 1.3px;
@@ -230,6 +239,9 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
+  .header_title_section{
+    width: 60%;
+   }
   .mainheader-content h1 {
     font-size: 28px; /* Responsive  Website Header  h1 Text Size Change   */
     letter-spacing: 1.3px;
@@ -564,6 +576,12 @@ body {
     display: block;
     height: 90px;
   }
+}
+
+@media screen and (min-width: 1400px){
+  .header_title_section{
+    width: 60%;
+   }
 }
 
 /* ---------------- img_galary page ------------ */
